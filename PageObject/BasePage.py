@@ -28,6 +28,9 @@ class BasePage:
         WebDriverWait(self.driver,10).until(EC.title_is(title))
         return self.driver.title
 
+    def method(self):
+        pass
+
 
 
 
